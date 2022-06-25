@@ -234,7 +234,8 @@ p {
   content: "";
   display: block;
   height: 120px;
-  background-size: contain;
+  background-image: url(../css/images/diagram.svg);
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #F5F4FA;
@@ -245,7 +246,8 @@ p {
   content: "";
   display: block;
   height: 120px;
-  background-size: contain;
+  background-image: url(../css/images/astronaut.svg);
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #F5F4FA;
