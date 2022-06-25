@@ -218,6 +218,7 @@ p {
   background-color: #F5F4FA;
   margin-bottom: 30px;
 }
+
 .img-clock::before {
   content: "";
   display: block;
@@ -253,6 +254,7 @@ p {
   background-color: #F5F4FA;
   margin-bottom: 30px;
 }
+
 .title-skill {
   font-weight: 700;
   font-size: 14px;
@@ -465,6 +467,23 @@ img {
   margin-top: 4px;
 }
 
+
+.partners {
+  padding: 94px 0;
+}
+
+.company {
+  display: flex;
+  
+  padding: 0;
+  
+}
+
+.icon-company {
+
+  width: 1200px;
+  
+}
 
 /* Footer*/
 
