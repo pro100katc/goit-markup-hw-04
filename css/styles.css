@@ -216,50 +216,11 @@ p {
 }
 
 
-.img-antena::before {
+.icon-skill {
   content: "";
   display: block;
   height: 120px;
-  background-image: url(../css/images/antenna.svg);
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #F5F4FA;
-  margin-bottom: 30px;
-}
-
-.img-clock::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-image: url(../css/images/clock.svg);
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #F5F4FA;
-  margin-bottom: 30px;
-}
-
-.img-diagram::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-image: url(../css/images/diagram.svg);
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #F5F4FA;
-  margin-bottom: 30px;
-}
-
-.img-astronavt::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-image: url(../css/images/astronaut.svg);
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 270px;
   background-color: #F5F4FA;
   margin-bottom: 30px;
 }
