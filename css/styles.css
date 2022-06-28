@@ -104,9 +104,10 @@ p {
   margin-right: 50px;
 }
 
-.site-nav .item:hover{
+.site-nav .item:hover {
   color: var(--accent-color);
 }
+
 .item-cotacts-header:hover,
 .item-cotacts-header:focus {
   color: var(--accent-color);
@@ -116,6 +117,7 @@ p {
 .adres-info :hover {
   color: var(--accent-color);
 }
+
 .icon {
   margin-right: 10px;
 }
@@ -125,10 +127,11 @@ p {
 }
 
 .adres-info {
-    display: flex;
-      margin-left: auto;
-      align-items: center;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
+
 .info {
   display: block;
   padding: 32px 0;
@@ -146,6 +149,15 @@ p {
 
 .section {
   padding: 94px 0;
+}
+
+.hero {
+  background-color: var(--footer-background-color);
+  color: var(--team-section-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 .overlay {
@@ -575,7 +587,7 @@ img {
   margin-top: 16px;
 }
 
-.social-icon-footer{
+.social-icon-footer {
   width: 20px;
   height: 20px;
   fill: var(--background-white-color);
@@ -592,7 +604,7 @@ img {
   display: flex;
 }
 
-.foter-our-contasts{
+.foter-our-contasts {
   padding-top: 12px;
   margin-left: 70px;
 }
