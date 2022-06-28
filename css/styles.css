@@ -100,12 +100,13 @@ p {
   margin-right: 50px;
 }
 
-.tel-icon{
+.tel-icon {
   content: "";
   display: inline-block;
   width: 20px;
   height: 20px;
 }
+
 .adres-info {
   display: flex;
   margin-left: 317px;
@@ -295,7 +296,8 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;;
+  fill: #afb1b8;
+  ;
 }
 
 .social-icon {
@@ -324,11 +326,9 @@ img {
 .team-card {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-  
+  border-radius: 0px 0px 4px 4px;
+
 }
-
-
 
 .person-name {
   font-weight: 500;
@@ -409,9 +409,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.nine-card:hover{
+
+.nine-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .about-nine {
   display: flex;
   flex-wrap: wrap;
@@ -478,6 +480,7 @@ img {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
+
 /* Footer*/
 
 .footer {
@@ -538,4 +541,18 @@ img {
 
 .tel-footer:hover {
   color: var(--accent-color);
+}
+
+.social-footer{
+  display: flex;
+  margin: auto;
+}
+.footer-title{
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
