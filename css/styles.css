@@ -104,6 +104,9 @@ p {
   margin-right: 50px;
 }
 
+.site-nav .item:hover{
+  color: var(--accent-color);
+}
 .item-cotacts-header:hover,
 .item-cotacts-header:focus {
   color: var(--accent-color);
