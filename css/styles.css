@@ -543,16 +543,51 @@ img {
   color: var(--accent-color);
 }
 
-.social-footer{
-  display: flex;
-  margin: auto;
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
-.footer-title{
-  
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+
+.social-footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--background-white-color);
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+  fill: var(--team-section-color);
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.foter-our-contasts{
+  padding-top: 12px;
+  margin-left: 70px;
 }
