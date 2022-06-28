@@ -100,30 +100,32 @@ p {
   margin-right: 50px;
 }
 
-.tel-icon {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-
-.adres-info {
-  display: flex;
-  margin-left: 317px;
-}
-
-.adres-info .item:not(:last-child) {
+.item-cotacts-header:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav :hover {
+.item-cotacts-header:hover,
+.item-cotacts-header:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .adres-info :hover {
   color: var(--accent-color);
 }
+.icon {
+  margin-right: 10px;
+}
 
+.adres-info .item+.item {
+  margin-left: 50px;
+}
+
+.adres-info {
+    display: flex;
+      margin-left: auto;
+      align-items: center;
+}
 .info {
   display: block;
   padding: 32px 0;
