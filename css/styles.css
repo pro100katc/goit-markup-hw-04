@@ -484,16 +484,18 @@ img {
   padding: 0;
   
 }
-.company-item .icom-company:not(:last-child){
+.company-item :not(:last-child){
   margin-right: 30px;
 }
 .company-item{
-  width: 1200px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   margin-right: 30px;
   fill: #AFB1B8;
-  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  height: 70px;
+  
 }
 .company-item:hover{
 border-color: var(--accent-color);
@@ -502,7 +504,10 @@ border-color: var(--accent-color);
 .icon-company:focus {
   fill: var(--accent-color);
 }
-
+.icon-company{
+  width: 70px;
+  height: 70px;
+}
 /* Footer*/
 
 .footer {
