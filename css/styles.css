@@ -13,6 +13,7 @@
   --background-white-color: #ffffff;
   --team-section-color: #f5f4fa;
   --studio-color: #000;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -239,7 +240,7 @@ p {
   display: block;
   height: 120px;
   width: 270px;
-  background-color: #F5F4FA;
+  background-color: var(--team-section-color);
   margin-bottom: 30px;
 }
 
@@ -313,8 +314,7 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;
-  ;
+  fill: var(--icon-color);
 }
 
 .social-icon {
@@ -341,7 +341,7 @@ img {
 }
 
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--background-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
@@ -390,7 +390,7 @@ img {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  background: #f5f4fa;
+  background: var(--team-section-color);
   border-radius: 4px;
   cursor: pointer;
   border: none;
@@ -495,9 +495,9 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .company li:last-child {
@@ -584,7 +584,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--background-white-color);
 }
 
 .social-footer-link {
