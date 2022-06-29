@@ -482,20 +482,25 @@ img {
 .company {
   display: flex;
   padding: 0;
+  
 }
-
-.icon-company {
+.company-item .icom-company:not(:last-child){
+  margin-right: 30px;
+}
+.company-item{
   width: 1200px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   margin-right: 30px;
   fill: #AFB1B8;
+  justify-content: space-between;
 }
-
+.company-item:hover{
+border-color: var(--accent-color);
+}
 .icon-company:hover,
 .icon-company:focus {
   fill: var(--accent-color);
-  border-color: var(--accent-color);
 }
 
 /* Footer*/
