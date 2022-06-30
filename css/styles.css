@@ -234,14 +234,20 @@ p {
   margin-right: 30px;
 }
 
-
-.icon-skill {
-  content: "";
-  display: block;
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   width: 270px;
   background-color: var(--team-section-color);
   margin-bottom: 30px;
+}
+
+.icon-skill {
+  width: 70px;
+  height: 70px;
+
 }
 
 .title-skill {
