@@ -109,18 +109,14 @@ p {
   color: var(--accent-color);
 }
 
-.item-cotacts-header:hover,
-.item-cotacts-header:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
-
-.adres-info :hover {
+.adres-info .info:hover,
+.adres-info .info:focus{
   color: var(--accent-color);
 }
 
 .icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .adres-info .item+.item {
@@ -134,7 +130,8 @@ p {
 }
 
 .info {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
@@ -198,7 +195,6 @@ p {
   color: var(--background-white-color);
   margin: 0 auto;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding-top: 10px;
   padding-left: 32px;
   padding-bottom: 10px;
@@ -208,8 +204,9 @@ p {
 }
 
 .hero-button:hover {
-  color: var(--team-section-color);
-}
+  background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 
 /* ----------HERO------------- */
 
@@ -320,17 +317,18 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--icon-color);
+ color: var(--icon-color);
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 
 .social-link:hover,
 .social-link:focus {
-  fill: var(--team-section-color);
+  color: var(--team-section-color);
   background-color: var(--accent-color);
 }
 
@@ -503,7 +501,7 @@ img {
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  fill: var(--icon-color);
+  color: var(--icon-color);
 }
 
 .company li:last-child {
@@ -513,12 +511,12 @@ img {
 .company-icon {
   width: 106px;
   height: 60px;
+  fill: currentColor;
 }
 
 .company-link:hover,
 .company-link:focus {
-  fill: var(--accent-color);
-  cursor: pointer;
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
