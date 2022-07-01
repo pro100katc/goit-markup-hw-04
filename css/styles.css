@@ -166,7 +166,7 @@ p {
   background-image: linear-gradient(to right,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)),
-    url(../images/hero.jpg);
+    url(../images/heroimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
